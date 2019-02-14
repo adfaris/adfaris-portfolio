@@ -6,7 +6,10 @@ class App extends Component {
   render () {
     return (
       <header className='header'>
-          <div className='text-box'> some text...
+          <div className='text-box'> 
+          <h1 className='heading-main-text'>
+          A.D.Faris 
+          </h1>
           </div>
       </header>
     )
