@@ -6,6 +6,8 @@ import '../src/sass/main.scss';
 class App extends Component {
   render () {
     return (
+      <div>
+      <div>
       <header className='header'>
         <div className='header__text-box'>
           <h1 className='heading-primary'>A.D.Faris
@@ -14,6 +16,21 @@ class App extends Component {
           </h1>
         </div>
       </header>
+      </div>
+    
+    <div>
+      <section className="grid-test">
+        <div className= "row">
+        <div className="col-1-of-2">
+        Col 1 of 2
+        </div>
+        <div className="col-1-of-2">
+        Col 2 of 2
+        </div>
+        </div>
+      </section>
+    </div>
+  </div>
     )
   }
 }
