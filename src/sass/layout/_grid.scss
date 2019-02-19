@@ -1,0 +1,11 @@
+.row {
+    max-width: $grid-width; 
+    background-color: #eee;
+    margin: 0 auto; //center block element
+    
+
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+        // except the last child the rest should have a bottom margin
+    }
+}
