@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 // import logo from './logo.svg';
 // import './App.css';
-import '../src/sass/main.scss';
+import '../src/sass/main.scss'
 
 class App extends Component {
   render () {
@@ -21,8 +21,21 @@ class App extends Component {
             </div>
           </header>
         </div>
+        <main>
+          <section className='section-about'>
+            <div className='u-center-text u-margin-bottom-8'>
+              <h2 className='heading-secondary'>
+              About ADFaris
+              </h2>
+            </div>
 
-        {/* <div> */}
+            <div className='row'>
+              <div className='col-1-of-2'>Text content</div>
+              <div className='col-1-of-2'>Image goes here</div>
+            </div>
+          </section>
+        </main>
+        {/* <div>
         <section className='grid-test'>
           <div className='row'>
             <div className='col-1-of-2'>Col 1 of 2</div>
@@ -43,9 +56,6 @@ class App extends Component {
           <div className='row'>
             <div className='col-1-of-4'>Col 1 of 4</div>
             <div className='col-1-of-4'>Col 1 of 4</div>
-          </div>
-
-          <div className='row'>
             <div className='col-1-of-4'>Col 1 of 4</div>
             <div className='col-1-of-4'>Col 1 of 4</div>
           </div>
@@ -53,9 +63,6 @@ class App extends Component {
           <div className='row'>
             <div className='col-1-of-4'>Col 1 of 4</div>
             <div className='col-1-of-4'>Col 1 of 4</div>
-          </div>
-
-          <div className='row'>
             <div className='col-2-of-4'>Col 2 of 4</div>
           </div>
 
