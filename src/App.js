@@ -1,7 +1,10 @@
-import React, { Component } from 'react';
-// import logo from './logo.svg';
+import React, { Component } from 'react'
+import logo from './images/logo.svg'
 // import './App.css';
-import '../src/sass/main.scss';
+import '../src/sass/main.scss'
+import image1 from './images/bg.jpg'
+import image2 from './images/bg2.jpg'
+
 
 class App extends Component {
   render () {
@@ -34,9 +37,8 @@ class App extends Component {
                   You are going to love this page.
                 </h3>
                 <p className='paragraph'>
-                  In nulla
-                  posuere sollicitudin aliquam ultrices. Ante in nibh mauris
-                  cursus. Enim neque volutpat ac tincidunt vitae semper.
+                  In nulla posuere sollicitudin aliquam ultrices. Ante in nibh
+                  mauris cursus. Enim neque volutpat ac tincidunt vitae semper.
                   Fringilla phasellus faucibus scelerisque eleifend donec. A
                   arcu cursus vitae congue mauris. Consequat nisl vel pretium
                   lectus quam id leo in. Lobortis scelerisque fermentum dui
@@ -51,9 +53,30 @@ class App extends Component {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Arcu bibendum at varius vel pharetra vel turpis.
                 </p>
-                <a href='#' className='btn-text'> Learn more &rarr;</a>
+
+                <a href='#' className='btn-text'>
+                  Learn more &rarr;
+                </a>
               </div>
-              <div className='col-1-of-2'>Image goes here</div>
+              <div className='col-1-of-2'>
+                <div className='composition'>
+                  <img
+                    src={image1}
+                    alt='pic1'
+                    className='composition__photo composition__photo--p1'
+                  />
+                  <img
+                    src={image2}
+                    alt='pic2'
+                    className='composition__photo composition__photo--p2'
+                  />
+                  <img
+                    src= {logo}
+                    alt='pic3'
+                    className='composition__photo composition__photo--p3'
+                  />
+                </div>
+              </div>
             </div>
           </section>
         </main>

@@ -8,15 +8,15 @@
 
 
 @import "components/button";
+@import "components/composition.scss";
 
 @import "layout/header";
 @import "layout/grid";
 
 @import "vendors/vendors";
 
-@import "pages/pages";
-
 @import "themes/themes";
 
 @import "pages/home";
+
 
