@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import './App.css';
-import '../src/sass/main.scss'
+import '../src/sass/main.scss';
 
 class App extends Component {
   render () {
@@ -23,15 +23,37 @@ class App extends Component {
         </div>
         <main>
           <section className='section-about'>
-            <div className='u-center-text u-margin-bottom-8'>
-              <h2 className='heading-secondary'>
-              About ADFaris
-              </h2>
+            <div className='u-center-text u-margin-bottom-large'>
+              <h2 className='heading-secondary'>About ADFaris</h2>
             </div>
 
             <div className='row'>
-              <div className='col-1-of-2'><h3 className='heading-tertiary'> You are going to love this page.</h3>
-                              <p className='paragraph'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <div className='col-1-of-2'>
+                <h3 className='heading-tertiary u-margin-bottom-small'>
+                  {' '}
+                  You are going to love this page.
+                </h3>
+                <p className='paragraph'>
+                  In nulla
+                  posuere sollicitudin aliquam ultrices. Ante in nibh mauris
+                  cursus. Enim neque volutpat ac tincidunt vitae semper.
+                  Fringilla phasellus faucibus scelerisque eleifend donec. A
+                  arcu cursus vitae congue mauris. Consequat nisl vel pretium
+                  lectus quam id leo in. Lobortis scelerisque fermentum dui
+                  faucibus.
+                </p>
+
+                <h3 className='heading-tertiary u-margin-bottom-small'>
+                  Live adventurue slike you have never lived before.
+                </h3>
+                <p className='paragraph'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Arcu bibendum at varius vel pharetra vel turpis. Ac orci
+                  phasellus egestas tellus rutrum tellus pellentesque eu
+                  tincidunt. Neque volutpat ac tincidunt vitae semper quis
+                  lectus. 
+                </p>
               </div>
               <div className='col-1-of-2'>Image goes here</div>
             </div>
