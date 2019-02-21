@@ -5,7 +5,6 @@ import '../src/sass/main.scss'
 import image1 from './images/bg.jpg'
 import image2 from './images/bg2.jpg'
 
-
 class App extends Component {
   render () {
     return (
@@ -71,7 +70,7 @@ class App extends Component {
                     className='composition__photo composition__photo--p2'
                   />
                   <img
-                    src= {logo}
+                    src={logo}
                     alt='pic3'
                     className='composition__photo composition__photo--p3'
                   />
@@ -79,44 +78,21 @@ class App extends Component {
               </div>
             </div>
           </section>
+
+          <section className='section-features'>
+            <div className='row'>
+              <div className='col-1-of-4'>
+                <div className='feature-box'>
+                  <i className='feature-box__icon icon-basic-world' />
+                  <h3 className='heading-tertiary'>Explore the world</h3>
+                  <p className='feature-box__text'>In nulla posuere sollicitudin aliquam ultrices. Ante in nibh
+                  mauris cursus. Enim neque volutpat ac tincidunt vitae semper.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
         </main>
-        {/* <div>
-        <section className='grid-test'>
-          <div className='row'>
-            <div className='col-1-of-2'>Col 1 of 2</div>
-            <div className='col-1-of-2'>Col 1 of 2</div>
-          </div>
-
-          <div className='row'>
-            <div className='col-1-of-3'>Col 1 of 3</div>
-            <div className='col-1-of-3'>Col 1 of 3</div>
-            <div className='col-1-of-3'>Col 1 of 3</div>
-          </div>
-
-          <div className='row'>
-            <div className='col-1-of-3'>Col 1 of 3</div>
-            <div className='col-2-of-3'>Col 2 of 3</div>
-          </div>
-
-          <div className='row'>
-            <div className='col-1-of-4'>Col 1 of 4</div>
-            <div className='col-1-of-4'>Col 1 of 4</div>
-            <div className='col-1-of-4'>Col 1 of 4</div>
-            <div className='col-1-of-4'>Col 1 of 4</div>
-          </div>
-
-          <div className='row'>
-            <div className='col-1-of-4'>Col 1 of 4</div>
-            <div className='col-1-of-4'>Col 1 of 4</div>
-            <div className='col-2-of-4'>Col 2 of 4</div>
-          </div>
-
-          <div className='row'>
-            <div className='col-1-of-4'>Col 1 of 4</div>
-            <div className='col-3-of-4'>Col 3 of 4</div>
-          </div>
-        </section>
-        {/* </div> */}
       </div>
     )
   }
