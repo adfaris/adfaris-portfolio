@@ -49,11 +49,9 @@ class App extends Component {
                 <p className='paragraph'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Arcu bibendum at varius vel pharetra vel turpis. Ac orci
-                  phasellus egestas tellus rutrum tellus pellentesque eu
-                  tincidunt. Neque volutpat ac tincidunt vitae semper quis
-                  lectus. 
+                  Arcu bibendum at varius vel pharetra vel turpis.
                 </p>
+                <a href='#' className='btn-text'> Learn more &rarr;</a>
               </div>
               <div className='col-1-of-2'>Image goes here</div>
             </div>
