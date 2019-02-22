@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import logo from './images/logo.svg'
-// import './App.css';
-import '../src/sass/main.scss'
+import './App.css';
+// import '../src/sass/main.scss'
 import image1 from './images/bg.jpg'
 import image2 from './images/bg2.jpg'
 
@@ -13,12 +13,7 @@ class App extends Component {
           <header className='header'>
             <div className='header__text-box'>
               <h1 className='heading-primary'>
-                A.D.Faris
-                <span className='heading-primary--main'>
-                  {' '}
-                  seasoned programmer
-                </span>
-                <span className='heading-primary--sub'> with great skills</span>
+                Hello, I am A.D.Faris!
               </h1>
             </div>
           </header>
@@ -84,14 +79,51 @@ class App extends Component {
               <div className='col-1-of-4'>
                 <div className='feature-box'>
                   <i className='feature-box__icon icon-basic-world' />
-                  <h3 className='heading-tertiary'>Explore the world</h3>
+                  {/* <FaGlobe/> */}
+                  <h3 className='heading-tertiary u-margin-bottom-small'>Explore the world</h3>
                   <p className='feature-box__text'>In nulla posuere sollicitudin aliquam ultrices. Ante in nibh
-                  mauris cursus. Enim neque volutpat ac tincidunt vitae semper.
+                  mauris cursus.
+                  </p>
+                </div>
+              </div>
+
+              <div className='col-1-of-4'>
+                <div className='feature-box'>
+                  <i className='feature-box__icon icon-basic-compass' />
+                  {/* <FaGlobe/> */}
+                  <h3 className='heading-tertiary u-margin-bottom-small'>Meet nature</h3>
+                  <p className='feature-box__text'>In nulla posuere sollicitudin aliquam ultrices. Ante in nibh
+                  mauris cursus.
+                  </p>
+                </div>
+              </div>
+
+              <div className='col-1-of-4'>
+                <div className='feature-box'>
+                  <i className='feature-box__icon icon-basic-map' />
+                  {/* <FaGlobe/> */}
+                  <h3 className='heading-tertiary u-margin-bottom-small'>Find your way</h3>
+                  <p className='feature-box__text'>In nulla posuere sollicitudin aliquam ultrices. Ante in nibh
+                  mauris cursus.
+                  </p>
+                </div>
+              </div>
+
+              <div className='col-1-of-4'>
+                <div className='feature-box'>
+                  <i className='feature-box__icon icon-basic-heart' />
+                  {/* <FaGlobe/> */}
+                  <h3 className='heading-tertiary u-margin-bottom-small'>Live healthier life</h3>
+                  <p className='feature-box__text'>In nulla posuere sollicitudin aliquam ultrices. Ante in nibh
+                  mauris cursus.
                   </p>
                 </div>
               </div>
             </div>
           </section>
+          <div>
+            github
+          </div>
         </main>
       </div>
     )

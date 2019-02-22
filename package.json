@@ -9,6 +9,7 @@
     "eslint-plugin-react": "^7.12.4",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
+    "react-icons": "^3.4.0",
     "react-scripts": "^2.1.5"
   },
   "scripts": {
@@ -16,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "compile:sass":"node-sass src/sass/main.scss src/App.css -w"
+    "compile:sass": "node-sass src/sass/main.scss src/App.css -w"
   },
   "eslintConfig": {
     "extends": "react-app"
