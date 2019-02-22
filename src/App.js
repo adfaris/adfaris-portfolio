@@ -21,36 +21,20 @@ class App extends Component {
         <main>
           <section className='section-about'>
             <div className='u-center-text u-margin-bottom-large'>
-              <h2 className='heading-secondary'>About ADFaris</h2>
+              <h2 className='heading-secondary'>About me.</h2>
             </div>
 
             <div className='row'>
               <div className='col-1-of-2'>
                 <h3 className='heading-tertiary u-margin-bottom-small'>
                   {' '}
-                  You are going to love this page.
+                  {/* About me. */}
                 </h3>
                 <p className='paragraph'>
-                  In nulla posuere sollicitudin aliquam ultrices. Ante in nibh
-                  mauris cursus. Enim neque volutpat ac tincidunt vitae semper.
-                  Fringilla phasellus faucibus scelerisque eleifend donec. A
-                  arcu cursus vitae congue mauris. Consequat nisl vel pretium
-                  lectus quam id leo in. Lobortis scelerisque fermentum dui
-                  faucibus.
+                Hello! My name is A.D.Faris, and I'm a full-stack developer, with the capacity to adapt and learn quickly. I'm well versed in React, Express, SQL, MongoDB.
                 </p>
 
-                <h3 className='heading-tertiary u-margin-bottom-small'>
-                  Live adventurue slike you have never lived before.
-                </h3>
-                <p className='paragraph'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Arcu bibendum at varius vel pharetra vel turpis.
-                </p>
-
-                <a href='#' className='btn-text'>
-                  Learn more &rarr;
-                </a>
+                
               </div>
               <div className='col-1-of-2'>
                 <div className='composition'>
@@ -59,7 +43,7 @@ class App extends Component {
                     alt='pic1'
                     className='composition__photo composition__photo--p1'
                   />
-                  <img
+                  {/* <img
                     src={image2}
                     alt='pic2'
                     className='composition__photo composition__photo--p2'
@@ -68,7 +52,7 @@ class App extends Component {
                     src={logo}
                     alt='pic3'
                     className='composition__photo composition__photo--p3'
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
