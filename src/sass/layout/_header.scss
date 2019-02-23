@@ -1,8 +1,8 @@
 .header {
   height: 95vh;
   background-image: linear-gradient(
-      to left bottom,
-      rgba($color-primary-light, 0.8),
+      to right,
+      rgba($color-primary-light-1, 0.8),
       rgba($color-primary-dark, 0.8)
     ),
     url(./images/bg2.jpg);
@@ -17,6 +17,15 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+.footer {
+  position: relative;
+  background-position: top;
+
+  &__text-box{
+    position: absolute;
     text-align: center;
   }
 }
