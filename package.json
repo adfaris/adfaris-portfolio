@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "eject": "react-scripts ej000sahect",
     "compile:sass": "node-sass src/sass/main.scss src/App.css -w"
   },
   "eslintConfig": {

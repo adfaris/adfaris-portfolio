@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 // import '../src/sass/main.scss'
-import image1 from "./images/bg.jpg";
+import image1 from "./images/AMG_6662.jpg";
 
 class App extends Component {
   render() {
@@ -55,16 +55,29 @@ class App extends Component {
         <main>
           <section className="section-about">
             <div className="u-center-text u-margin-bottom-large">
-              <h2 className="heading-secondary">About me.</h2>
+              {/* <h2 className="heading-secondary"></h2> */}
             </div>
 
             <div className="row">
               <div className="col-1-of-2">
                 <h3 className="heading-tertiary u-margin-bottom-small"> </h3>
                 <p className="paragraph">
-                  Hello! My name is A.D.Faris, and I'm a full-stack developer,
-                  with the capacity to adapt and learn quickly. I'm well versed
-                  in React, Express, SQL, MongoDB.
+                  My name is Aregahegn Faris and I'm a Full-Stack
+                  Web Developer specializing in back end development. In
+                  addition, I have a strong background in high-level project and
+                  operations management as well as with client. I started my Web Development journey in early 2018
+                  when I began at Lambda School. Nine grueling months later, I
+                  am a qualified Full-Stack Web developer with specialties in
+                  React and Javascript. I have completed over 15 projects over
+                  the past nine months, starting with the simple and continuing
+                  with more and more complex applications. Take a look at some
+                  of them below! 
+                  <p>
+                    </p>Contact Details 
+                    AD Faris 
+                    Glen Ridge,NJ 
+                    (917) 443 - 0014 
+                    adfaris@gmail.com
                 </p>
               </div>
               <div className="col-1-of-2">
@@ -126,14 +139,11 @@ class App extends Component {
 
               <div className="col-1-of-3">
                 <div className="feature-box">
-                  <i className="feature-box__icon icon-basic-map" />
+                  {/* <i className="feature-box__icon icon-basic-map" /> */}
                   {/* <FaGlobe/> */}
-                  <h3 className="heading-tertiary u-margin-bottom-small">
-                    Find your way
-                  </h3>
+                  {/* <h3 className="heading-tertiary u-margin-bottom-small"></h3> */}
                   <p className="feature-box__text">
-                    In nulla posuere sollicitudin aliquam ultrices. Ante in nibh
-                    mauris cursus.
+                    Blog from project week.
                   </p>
                 </div>
               </div>
