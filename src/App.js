@@ -62,22 +62,20 @@ class App extends Component {
               <div className="col-1-of-2">
                 <h3 className="heading-tertiary u-margin-bottom-small"> </h3>
                 <p className="paragraph">
-                  My name is Aregahegn Faris and I'm a Full-Stack
-                  Web Developer specializing in back end development. In
-                  addition, I have a strong background in high-level project and
-                  operations management as well as with client. I started my Web Development journey in early 2018
-                  when I began at Lambda School. Nine grueling months later, I
-                  am a qualified Full-Stack Web developer with specialties in
-                  React and Javascript. I have completed over 15 projects over
-                  the past nine months, starting with the simple and continuing
-                  with more and more complex applications. Take a look at some
-                  of them below! 
-                  <p>
-                    </p>Contact Details 
-                    AD Faris 
-                    Glen Ridge,NJ 
-                    (917) 443 - 0014 
-                    adfaris@gmail.com
+                  My name is Aregahegn (AD) Faris and I'm a Full-Stack Web
+                  Developer specializing in back end development. I started my
+                  Web Development early 2018 when I joined Lambda School. After
+                  a hard months later, I am a qualified Full-Stack Web
+                  developer with specialties in React, Javascript, Node and Express.
+                  I have completed over 15 projects over the past nine months, starting
+                  with the simple and continuing with a more complex
+                  applications. Checkout my github to see it all.
+                  {/* </p> */}
+                  <p>Contact Details </p>
+                  <p> AD Faris </p>
+                  <p>Glen Ridge,NJ</p>
+                  <p>(917) 443 - 0014</p>
+                  <p> adfaris@gmail.com</p>
                 </p>
               </div>
               <div className="col-1-of-2">
@@ -112,7 +110,7 @@ class App extends Component {
                     on the record
                   </h3>
                   <p className="feature-box__text">
-                    A website that will allow you to review music
+                    website that will allow you to review music
                   </p>
                   <a
                     className="feature-box__link"
@@ -134,6 +132,12 @@ class App extends Component {
                   <p className="feature-box__text">
                     An app that will allow you to take notes.
                   </p>
+                  <a
+                    className="feature-box__link"
+                    href="https://adfaris-note.netlify.com/"
+                  >
+                    Lambda Notes
+                  </a>
                 </div>
               </div>
 
@@ -141,10 +145,16 @@ class App extends Component {
                 <div className="feature-box">
                   {/* <i className="feature-box__icon icon-basic-map" /> */}
                   {/* <FaGlobe/> */}
-                  {/* <h3 className="heading-tertiary u-margin-bottom-small"></h3> */}
-                  <p className="feature-box__text">
-                    Blog from project week.
-                  </p>
+                  <h3 className="heading-tertiary u-margin-bottom-small">
+                    Blog post
+                  </h3>
+                  <p className="feature-box__text">Blog from project week.</p>
+                  <a
+                    className="feature-box__link"
+                    href="https://adfaris.netlify.com/"
+                  >
+                    Weekly blog
+                  </a>
                 </div>
               </div>
 

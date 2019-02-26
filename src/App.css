@@ -190,7 +190,13 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
   .feature-box__link {
-    text-decoration: none; }
+    color: #373737;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 0.1rem solid #C0B283;
+    font-size: 1.6rem;
+    padding: .3rem;
+    transition: all .2s; }
 
 .header {
   height: 95vh;
@@ -252,5 +258,5 @@ body {
 .section-features {
   margin-top: -15vh;
   padding: 20rem 0;
-  background-image: linear-gradient(to right, rgba(220, 208, 192, 0.8), rgba(192, 178, 131, 0.8)), url(./images/bg2.jpg);
+  background-image: linear-gradient(to right, rgba(220, 208, 192, 0.8), rgba(192, 178, 131, 0.8)), url(./images/abstract-astro.jpg);
   background-size: cover; }
