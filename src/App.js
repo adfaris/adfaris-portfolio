@@ -74,7 +74,7 @@ class App extends Component {
                   <p>Contact Details </p>
                   <p> AD Faris </p>
                   <p>Glen Ridge,NJ</p>
-                  <p>(917) 443 - 0014</p>
+                  <p>917-443-0014</p>
                   <p> adfaris@gmail.com</p>
                 </p>
               </div>

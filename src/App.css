@@ -35,9 +35,13 @@ body {
     .heading-primary--main--github {
       margin-right: 5rem; }
       .heading-primary--main--github--setting {
-        text-decoration: none;
         color: #373737;
-        text-decoration: underline; }
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 0.1rem solid #C0B283;
+        font-size: 1.6rem;
+        padding: .3rem;
+        transition: all .2s; }
     .heading-primary--main--linkedin {
       margin-right: 5rem; }
   .heading-primary--sub {
