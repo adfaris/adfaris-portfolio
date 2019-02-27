@@ -17,7 +17,6 @@ body {
   line-height: 1.7;
   /* font-size: 16px; */
   color: #777;
-  padding: 3rem;
   box-sizing: border-box; }
 
 .heading-primary {
@@ -35,6 +34,10 @@ body {
     text-transform: capitalize; }
     .heading-primary--main--github {
       margin-right: 5rem; }
+      .heading-primary--main--github--setting {
+        text-decoration: none;
+        color: #373737;
+        text-decoration: underline; }
     .heading-primary--main--linkedin {
       margin-right: 5rem; }
   .heading-primary--sub {
@@ -148,7 +151,7 @@ body {
 .composition {
   position: relative; }
   .composition__photo {
-    width: 55%;
+    width: 90%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: .2rem;
     position: absolute;
@@ -158,17 +161,6 @@ body {
     .composition__photo--p1 {
       left: 0;
       top: 2rem; }
-    .composition__photo--p2 {
-      right: 0;
-      top: -2rem; }
-    .composition__photo--p3 {
-      left: 20%;
-      top: 10rem; }
-    .composition__photo:hover {
-      outline: 1.5rem solid #373737;
-      transform: scale(1.05) translateY(-0.5rem);
-      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
-      z-index: 20; }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
@@ -200,7 +192,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right, rgba(220, 208, 192, 0.8), rgba(55, 55, 55, 0.8)), url(./images/bg2.jpg);
+  background-image: linear-gradient(to right, rgba(220, 208, 192, 0.8), rgba(55, 55, 55, 0.8)), url(./images/sunrise.jpg);
   background-size: cover;
   background-position: top;
   position: relative;

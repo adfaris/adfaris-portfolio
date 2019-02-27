@@ -4,7 +4,7 @@ body {
     line-height: 1.7;
     /* font-size: 16px; */
     color: $color-gray-dark;
-    padding: 3rem;
+    // padding: .5rem;
   
     box-sizing: border-box;
   }
@@ -27,6 +27,11 @@ body {
 
       &--github{
         margin-right: 5rem;
+        &--setting {
+          text-decoration: none;
+          color: $color-primary-dark;
+          text-decoration: underline;
+        }
       }
       &--linkedin{
         margin-right: 5rem 

@@ -65,12 +65,12 @@ class App extends Component {
                   My name is Aregahegn (AD) Faris and I'm a Full-Stack Web
                   Developer specializing in back end development. I started my
                   Web Development early 2018 when I joined Lambda School. After
-                  a hard months later, I am a qualified Full-Stack Web
+                  a number of months later, I am a qualified Full-Stack Web
                   developer with specialties in React, Javascript, Node and Express.
-                  I have completed over 15 projects over the past nine months, starting
+                  I have completed a number of  projects over the past nine months, starting
                   with the simple and continuing with a more complex
-                  applications. Checkout my github to see it all.
-                  {/* </p> */}
+                  applications. 
+                  Checkout my<a className='heading-primary--main--github--setting' href='https://github.com/adfaris'> github</a> to see it all.
                   <p>Contact Details </p>
                   <p> AD Faris </p>
                   <p>Glen Ridge,NJ</p>
@@ -85,16 +85,6 @@ class App extends Component {
                     alt="pic1"
                     className="composition__photo composition__photo--p1"
                   />
-                  {/* <img
-                    src={image2}
-                    alt='pic2'
-                    className='composition__photo composition__photo--p2'
-                  />
-                  <img
-                    src={logo}
-                    alt='pic3'
-                    className='composition__photo composition__photo--p3'
-                  /> */}
                 </div>
               </div>
             </div>
