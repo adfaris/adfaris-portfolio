@@ -10,9 +10,9 @@ class App extends Component {
         <div>
           <header className="header">
             <div className="header__text-box">
-              <h1 className="heading-primary">Hello, I am A.D.Faris!</h1>
+              <h1 className="heading-primary">Hello, I am A.D. Faris!</h1>
               <h2 className="heading-primary--sub">
-                A Glen Ridge NJ based Full-Stack Web Developer, specializing in
+                A NJ based Full-Stack Web Developer, specializing in
                 back-end development.
               </h2>
               <hr />
@@ -62,15 +62,24 @@ class App extends Component {
               <div className="col-1-of-2">
                 <h3 className="heading-tertiary u-margin-bottom-small"> </h3>
                 <p className="paragraph">
-                  My name is Aregahegn (AD) Faris and I'm a Full-Stack Web
-                  Developer specializing in back end development. I started my
-                  Web Development early 2018 when I joined Lambda School. After
-                  a number of months later, I am a qualified Full-Stack Web
-                  developer with specialties in React, Javascript, Node and Express.
-                  I have completed a number of  projects over the past nine months, starting
-                  with the simple and continuing with a more complex
-                  applications. 
-                  Checkout my<a className='heading-primary--main--github--setting' href='https://github.com/adfaris'> github</a> to see it all.
+                  My name is Aregahegn (A.D.) Faris, and I began my journey as a
+                  web developer in early 2018 when I joined Lambda school, a
+                  Software Engineering and Computer Science acadamy with a
+                  hands-on, project based curriculum. Several months later, I am
+                  a qualified Full-Stack Web developer with specialies in React,
+                  Javascript, Node and Express. Although I have a prior
+                  education in Computer Science, Lambda gave me the tools I
+                  needed to develop complex user-focused applications and you
+                  can check out past and current projects on my{" "}
+                  <a
+                    className="heading-primary--main--github--setting"
+                    href="https://github.com/adfaris"
+                  >
+                    {" "}
+                    Github
+                  </a>
+                  . I'm always looking to connect with others in the tech and
+                  developer communities, so feel free to reach out!
                   <p>Contact Details </p>
                   <p> AD Faris </p>
                   <p>Glen Ridge,NJ</p>
