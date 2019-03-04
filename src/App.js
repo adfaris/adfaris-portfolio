@@ -10,8 +10,8 @@ class App extends Component {
         <div>
           <header className='header'>
             <div className='logo-box'>
-              <a href='main' className='logo-box__nav'> About</a>
-              <a href='main' className='logo-box__nav'> Project</a>
+              {/* <a href='main' className='logo-box__nav'> About</a> */}
+              {/* <a href='main' className='logo-box__nav'> Project</a> */}
 
               <div className='header__text-box'>
                 <h1 className='heading-primary'>Hello, I am A.D. Faris!</h1>
