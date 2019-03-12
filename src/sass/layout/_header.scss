@@ -19,5 +19,21 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  &__logo-box{
+    // position: absolute;
+    // text-align: right;
+    // bo
+    text-align: right;
+    
+    &--nav{
+    text-decoration: none;
+    color:$color-primary-light-2;
+    font-size: $default-font-size;
+    margin-right: 2rem;
+    font-family: Merriweather;
+    }
+  }
+
 }
 

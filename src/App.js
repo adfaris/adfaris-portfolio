@@ -9,9 +9,9 @@ class App extends Component {
       <div>
         <div>
           <header className='header'>
-            <div className='logo-box'>
-              {/* <a href='main' className='logo-box__nav'> About</a> */}
-              {/* <a href='main' className='logo-box__nav'> Project</a> */}
+            <div className='header__logo-box'>
+              <a href='#about' className='header__logo-box--nav'> About</a>
+              <a href='#project' className='header__logo-box--nav'> Project</a>
 
               <div className='header__text-box'>
                 <h1 className='heading-primary'>Hello, I am A.D. Faris!</h1>
@@ -57,7 +57,7 @@ class App extends Component {
           </header>
         </div>
 
-        <main>
+        <main id='about'>
           <section className='section-about'>
             <div className='u-center-text u-margin-bottom-large'>
               {/* <h2 className="heading-secondary"></h2> */}
@@ -104,7 +104,7 @@ class App extends Component {
             </div>
           </section>
 
-          <section className='section-features'>
+          <section id='project' className='section-features'>
             <div className='row'>
               <div className='col-1-of-3'>
                 <div className='feature-box'>
