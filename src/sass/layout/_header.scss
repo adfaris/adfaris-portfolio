@@ -21,17 +21,18 @@
   }
 
   &__logo-box{
-    // position: absolute;
-    // text-align: right;
-    // bo
     text-align: right;
-    
+    padding: 6rem;
     &--nav{
-    text-decoration: none;
-    color:$color-primary-light-2;
-    font-size: $default-font-size;
-    margin-right: 2rem;
-    font-family: Merriweather;
+      display: inline-block;
+      text-decoration: none;
+      border-bottom: .1rem solid $color-primary-light;
+      font-size: $default-font-size;
+      padding: .3rem;
+      transition: all .2s; 
+      color:$color-primary-light-2;
+      margin-right: 2rem;
+      font-family: lato;
     }
   }
 

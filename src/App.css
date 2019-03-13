@@ -208,13 +208,18 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
   .header__logo-box {
-    text-align: right; }
+    text-align: right;
+    padding: 6rem; }
     .header__logo-box--nav {
+      display: inline-block;
       text-decoration: none;
-      color: #F4F4F4;
+      border-bottom: 0.1rem solid #C0B283;
       font-size: 1.6rem;
+      padding: .3rem;
+      transition: all .2s;
+      color: #F4F4F4;
       margin-right: 2rem;
-      font-family: Merriweather; }
+      font-family: lato; }
 
 .row {
   max-width: 114rem;
