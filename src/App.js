@@ -23,7 +23,7 @@ class App extends Component {
                 <div className='heading-primary--main'>
                   <a
                     className='heading-primary--main--github'
-                    href='https://github.com/adfaris'
+                    href='https://github.com/adfaris' rel='noopener noreferrer' target='_blank'
                   >
                     {' '}
                     <i
@@ -33,7 +33,7 @@ class App extends Component {
                   </a>
                   <a
                     className='heading-primary--main--linkedin'
-                    href='https://www.linkedin.com/in/ad-faris/'
+                    href='https://www.linkedin.com/in/ad-faris/' rel='noopener noreferrer' target='_blank'
                   >
                     {' '}
                     <i
@@ -78,7 +78,7 @@ class App extends Component {
                   can check out past and current projects on my{' '}
                   <a
                     className='heading-primary--main--github--setting'
-                    href='https://github.com/adfaris'
+                    href='https://github.com/adfaris' rel='noopener noreferrer' target='_blank'
                   >
                     {' '}
                     Github
@@ -118,7 +118,7 @@ class App extends Component {
                   </p>
                   <a
                     className='feature-box__link'
-                    href='http://www.ontherecord.us'
+                    href='http://www.ontherecord.us' rel='noopener noreferrer' target='_blank'
                   >
                     {' '}
                     ontherecord.us
@@ -138,7 +138,7 @@ class App extends Component {
                   </p>
                   <a
                     className='feature-box__link'
-                    href='https://adfaris-note.netlify.com/'
+                    href='https://adfaris-note.netlify.com/' rel='noopener noreferrer' target='_blank'
                   >
                     Lambda Notes
                   </a>
@@ -155,7 +155,7 @@ class App extends Component {
                   <p className='feature-box__text'>Blog from project week.</p>
                   <a
                     className='feature-box__link'
-                    href='https://adfaris.netlify.com/'
+                    href='https://adfaris.netlify.com/' rel='noopener noreferrer' target='_blank'
                   >
                     Weekly blog
                   </a>
@@ -181,7 +181,7 @@ class App extends Component {
             <div className='footer-primary--main'>
               <a
                 className='heading-primary--main--github'
-                href='https://github.com/adfaris'
+                href='https://github.com/adfaris' rel='noopener noreferrer' target='_blank'
               >
                 {' '}
                 <i
@@ -191,7 +191,7 @@ class App extends Component {
               </a>
               <a
                 className='heading-primary--main--linkedin'
-                href='https://www.linkedin.com/in/ad-faris/'
+                href='https://www.linkedin.com/in/ad-faris/' rel='noopener noreferrer' target='_blank'
               >
                 {' '}
                 <i
