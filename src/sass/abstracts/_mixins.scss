@@ -4,5 +4,26 @@
         display: table;
         clear: both;
     }
-
 }
+
+// Media query Manager
+//  0-600 : phone
+//  600 - 900: tablet
+// 900-1200: Tablet Landscape
+//  1200- 1800 is where desktop
+//  1800+ : big screen
+
+@mixin respond-phone {
+    @media (max-width: 600px) {
+        @content
+    }
+}
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone{
+        @media (max-width: 600px) {
+            @content
+        }
+    }
+}
+

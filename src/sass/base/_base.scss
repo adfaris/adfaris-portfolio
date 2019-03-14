@@ -9,7 +9,11 @@ html {
     // this defines what 1 rem is.
   font-size: 62.5%;
 
-  respond-phone{
+  @include respond-phone {
+    font-size: 50%;
+  }
+  
+  @include respond(phone){
     font-size: 50%;
   }
 }
