@@ -7,6 +7,8 @@
 
 html {
   font-size: 62.5%; }
+  html respond-phone {
+    font-size: 50%; }
 
 body {
   box-sizing: border-box; }
