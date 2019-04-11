@@ -126,10 +126,10 @@ class App extends Component {
                 </div>
               </div>
 
-              <div className='col-1-of-3'>
+              {/* <div className='col-1-of-3'>
                 <div className='feature-box'>
                   {/* <i className='feature-box__icon icon-basic-compass' /> */}
-                  {/* <FaGlobe/> */}
+                  {/* <FaGlobe/> 
                   <h3 className='heading-tertiary u-margin-bottom-small'>
                     Lambda notes
                   </h3>
@@ -143,7 +143,7 @@ class App extends Component {
                     Lambda Notes
                   </a>
                 </div>
-              </div>
+              </div> */}
 
               <div className='col-1-of-3'>
                 <div className='feature-box'>
